@@ -1,5 +1,7 @@
 <script>
-	import '../app.css';
+  import '../app.css';
 </script>
 
-<slot />
+<div class="bg-base-100">
+  <slot />
+</div>
