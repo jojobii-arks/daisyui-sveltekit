@@ -1,10 +1,6 @@
 <script>
   import { onMount } from 'svelte';
 
-  onMount(() => {
-    themeChange(false);
-  });
-
   import '../app.css';
   import { preferences } from '../stores/preferences';
 
@@ -12,6 +8,6 @@
   $: theme = $preferences.darkMode ? 'dracula' : 'light';
 </script>
 
-<div data-theme={theme} class="bg-base-100">
+<div data-theme={theme} class="bg-base-300 ">
   <slot />
 </div>
