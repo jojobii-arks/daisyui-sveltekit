@@ -1,12 +1,13 @@
 import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-auto';
+import adapterStatic from '@sveltejs/adapter-static';
 let config;
 
 const buildingForGithubPages = true;
 const yourRepoName = 'svelte-tailwind-ghpages-template';
 const dev = process.env.NODE_ENV === 'development';
 
-if (buildingForGithubPages) {
+if (!buildingForGithubPages) {
   config = {
     kit: {
       adapter: adapter(),
@@ -18,7 +19,7 @@ if (buildingForGithubPages) {
 } else {
   config = {
     kit: {
-      adapter: adapter({
+      adapter: adapterStatic({
         pages: 'build',
         assets: 'build'
       }),
