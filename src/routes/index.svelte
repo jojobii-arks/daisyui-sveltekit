@@ -60,4 +60,5 @@
       </div>
     </div>
   </form>
+  <button class="btn btn-primary">This is some button text</button>
 </div>

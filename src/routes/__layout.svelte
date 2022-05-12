@@ -1,5 +1,4 @@
 <script>
-  import '../fonts.css';
   import '../tailwind.css';
   import { preferences } from '../stores/preferences';
 

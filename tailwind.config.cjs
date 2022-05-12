@@ -6,12 +6,5 @@ module.exports = {
   daisyui: {
     themes: ['light', 'dracula'],
     darkTheme: 'dark'
-  },
-  theme: {
-    extend: {
-      fontFamily: {
-        sans: ['Roboto Flex', ...defaultTheme.fontFamily.sans]
-      }
-    }
   }
 };
