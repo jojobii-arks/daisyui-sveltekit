@@ -4,7 +4,7 @@ import adapterStatic from '@sveltejs/adapter-static';
 let config;
 
 const buildingForGithubPages = true;
-const yourRepoName = 'svelte-tailwind-ghpages-template';
+const yourRepoName = 'daisyui-sveltekit';
 const dev = process.env.NODE_ENV === 'development';
 
 if (!buildingForGithubPages) {
