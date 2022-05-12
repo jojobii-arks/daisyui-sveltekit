@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'Roboto Flex';
-  src: url(RobotoFlex-VariableFont_GRADXTRAYOPQYTASYTDEYTFIYTLCYTUCopszslntwdthwght.ttf);
+  src: url('fonts/RobotoFlex-VariableFont_GRADXTRAYOPQYTASYTDEYTFIYTLCYTUCopszslntwdthwght.ttf');
 }
 
 @tailwind utilities;
