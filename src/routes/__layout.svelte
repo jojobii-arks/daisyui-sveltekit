@@ -1,7 +1,6 @@
 <script>
-  import { onMount } from 'svelte';
-
-  import '../app.css';
+  import '../fonts.css';
+  import '../tailwind.css';
   import { preferences } from '../stores/preferences';
 
   let theme = $preferences.darkMode ? 'dracula' : 'light';

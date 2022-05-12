@@ -1,9 +1,7 @@
 @tailwind base;
 @tailwind components;
-
 @font-face {
   font-family: 'Roboto Flex';
-  src: url('/fonts/RobotoFlex-VariableFont_GRADXTRAYOPQYTASYTDEYTFIYTLCYTUCopszslntwdthwght.ttf');
+  src: url('$lib/assets/fonts/RobotoFlexVariable.ttf');
 }
-
 @tailwind utilities;
