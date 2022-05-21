@@ -6,6 +6,6 @@
   $: theme = $preferences.darkMode ? 'dracula' : 'light';
 </script>
 
-<div data-theme={theme} class="bg-base-300 ">
+<div data-theme={theme} class="prose min-h-screen min-w-full ">
   <slot />
 </div>
